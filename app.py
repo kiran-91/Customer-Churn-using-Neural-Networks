@@ -22,13 +22,20 @@ with open("scaler.pkl", "rb") as file:
 st.title("Customer Churn Prediction")
 
 #user input and prediction 
+st.write("Select a Country")
 geography=st.selectbox("Geography",onehot_encode_geo.categories_[0])
+st.write("What is the gender")
 gender=st.selectbox("Gender", label_encode_gender.classes_)
+st.write("Input an age")
 age=st.slider("Age", 18,92)
+st.write("What is the account balance")
 balance=st.number_input("Balance")
+st.write("Credit Score lies between  350 and 850")
 credit_score=st.number_input("Credit Score")
-estimated_salary=st.number_input("Estimated Salary")
-tenure=st.slider("Tenure", 0,10)
+st.write("What is the monthly salary")
+estimated_salary=st.slider("Salary",10,200000,50000)
+st.write("Credit Tenure")
+tenure=st.slider("Time Period", 0,10)
 num_of_products=st.slider("Number of Products",1,4)
 has_cr_card=st.selectbox("Has a Credit Card",[0,1])
 is_active_member=st.selectbox("Is an Active member",[0,1])
@@ -64,7 +71,7 @@ input_data_scaled=scaler.transform(input_data)
 prediction=model.predict(input_data_scaled)
 prediction_proba=prediction[0][0]
 
-st.write(f"Churn Probability {prediction_proba:.2f}")
+st.write(f"Churn Probability is: {prediction_proba:.2f}")
 
 if prediction_proba>0.5:
     st.write("Customer is likely to churn")
