@@ -1,8 +1,8 @@
-# Customer-Churn-using-Neural-Networks
+# Customer-Churn-using-Artificial-Neural-Networks
 
-## A machine learning/Deep Learning project to predict customer churn using neural networks.
+## A machine learning/Deep Learning project to predict customer churn using Artificial neural networks.
 
-## This project aims to build a model that can accurately predict which customers are likely to churn. It leverages the power of neural networks, a type of machine learning algorithm, to analyze customer data and identify patterns that indicate churn.
+## This project aims to build a model that can accurately predict wheather customers are likely to churn. It leverages the power of multilayer perceptron(neural networks), to analyze customer data and identify patterns that indicate churn.
 
 ## Key Technologies:
 
