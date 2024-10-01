@@ -14,25 +14,25 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 
-```
+```bash
 git clone https://https://github.com/kiran-91/Customer-Churn-using-Neural-Nets.git
 cd Customer-Churn-using-Neural-Nets
 ```
 
 2. Setup a virtual environment (optional but recommended)
-```
+```bash
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
 venv\Scripts\activate  # For Windows
 ```
 
 3. Install required dependencies
-```
+```bash
 pip install -r requirements.txt
 ```
 
 4. Run the streamlit app
-```
+```bash
 streamlit run app.py
 ```
 
