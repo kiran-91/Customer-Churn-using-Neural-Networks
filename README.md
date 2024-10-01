@@ -13,7 +13,7 @@ Streamlit Web App: User-friendly interface for making real-time churn prediction
 To run the project locally, follow these steps:
 
 1. Clone the repository:
-''' 
+'''bash
 git clone https://https://github.com/kiran-91/Customer-Churn-using-Neural-Nets.git
 cd Customer-Churn-using-Neural-Nets
 '''
