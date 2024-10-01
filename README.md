@@ -13,25 +13,27 @@ Streamlit Web App: User-friendly interface for making real-time churn prediction
 To run the project locally, follow these steps:
 
 1. Clone the repository:
-'''bash
+
+```
 git clone https://https://github.com/kiran-91/Customer-Churn-using-Neural-Nets.git
 cd Customer-Churn-using-Neural-Nets
-'''
-
+```
 
 2. Setup a virtual environment (optional but recommended)
-''' 
+```
 python -m venv venv
 source venv/bin/activate  # For Linux/MacOS
 venv\Scripts\activate  # For Windows
-'''
-3. Install required dependencies 
-'''
+```
+
+3. Install required dependencies
+```
 pip install -r requirements.txt
-'''
+```
+
 4. Run the streamlit app
-''' 
+```
 streamlit run app.py
-'''
+```
 
 
