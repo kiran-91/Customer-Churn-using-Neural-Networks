@@ -4,10 +4,10 @@
 This repository contains a machine learning project for predicting customer churn using Artificial Neural Networks (ANN). The project includes a Streamlit web app that allows users to input customer data and predict whether the customer is likely to churn. The model is trained on historical customer data, preprocessed, and visualized using TensorBoard to track the learning process.
 
 ## Key Features
-Data Preprocessing: Handling missing values, encoding categorical variables, feature scaling.
-Artificial Neural Network: Built using TensorFlow/Keras for accurate churn predictions.
-Model Training & Visualization: Monitor the model’s performance using TensorBoard.
-Streamlit Web App: User-friendly interface for making real-time churn predictions based on user input.
+1. Data Preprocessing: Handling missing values, encoding categorical variables, feature scaling.
+2. Artificial Neural Network: Built using TensorFlow/Keras for accurate churn predictions.
+3. Model Training & Visualization: Monitor the model’s performance using TensorBoard.
+4. Streamlit Web App: User-friendly interface for making real-time churn predictions based on user input.
 
 ## Installation
 To run the project locally, follow these steps:
