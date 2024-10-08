@@ -9,6 +9,14 @@ This repository contains a machine learning project for predicting customer chur
 3. Model Training & Visualization: Monitor the model’s performance using TensorBoard.
 4. Streamlit Web App: User-friendly interface for making real-time churn predictions based on user input.
 
+## Requirements 
+1. Python
+2. Pandas
+3. Scikit-learn
+4. Streamlit
+5. Tensorflow/keras
+
+
 ## Installation
 To run the project locally, follow these steps:
 
