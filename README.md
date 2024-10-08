@@ -15,6 +15,7 @@ This repository contains a machine learning project for predicting customer chur
 3. Scikit-learn
 4. Streamlit
 5. Tensorflow/keras
+6. Plotly
 
 
 ## Installation
