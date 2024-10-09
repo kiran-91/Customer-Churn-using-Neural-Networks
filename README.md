@@ -53,20 +53,20 @@ cuspre.streamlit.app
 ## Usage 
 
 1. Customer Demographics:
-Country: Select the customer's country from the dropdown list.
-Gender: Choose the customer’s gender (Male or Female) by selecting the appropriate radio button.
-Age: Adjust the slider to set the customer’s age between 18 and 92.
+a. Country: Select the customer's country from the dropdown list.
+b. Gender: Choose the customer’s gender (Male or Female) by selecting the appropriate radio button.
+c. Age: Adjust the slider to set the customer’s age between 18 and 92.
 
 2. Account Information:
-Account Balance: Enter the customer’s account balance.
-Credit Score: Use the slider to select the customer’s credit score (between 350 and 850).
+a. Account Balance: Enter the customer’s account balance.
+b. Credit Score: Use the slider to select the customer’s credit score (between 350 and 850).
 
 3. Customer Engagement:
-Monthly Salary: Adjust the slider to set the customer’s monthly salary (from 10 to 200,000).
-Credit Tenure (years): Use the slider to specify the number of years the customer has been using credit (from 0 to 10).
-Number of Products: Adjust the slider to set the number of products the customer is using (from 1 to 4).
-Has a Credit Card: Check this box if the customer has a credit card.
-Is an Active Member: Check this box if the customer is an active member.
+a. Monthly Salary: Adjust the slider to set the customer’s monthly salary (from 10 to 200,000).
+b. Credit Tenure (years): Use the slider to specify the number of years the customer has been using credit (from 0 to 10).
+c. Number of Products: Adjust the slider to set the number of products the customer is using (from 1 to 4).
+d. Has a Credit Card: Check this box if the customer has a credit card.
+e. Is an Active Member: Check this box if the customer is an active member.
 
 4. Prediction:
 Once all fields are filled, click the "Predict Churn Probability" button to get the prediction and the app will output the probability that the customer will churn based on the inputs provided
