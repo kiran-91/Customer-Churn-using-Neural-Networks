@@ -52,24 +52,24 @@ cuspre.streamlit.app
 ```
 ## Usage 
 
-1. Customer Demographics:
-a. Country: Select the customer's country from the dropdown list.
-b. Gender: Choose the customer’s gender (Male or Female) by selecting the appropriate radio button.
-c. Age: Adjust the slider to set the customer’s age between 18 and 92.
+### Customer Demographics:
+1. Country: Select the customer's country from the dropdown list.
+2. Gender: Choose the customer’s gender (Male or Female) by selecting the appropriate radio button.
+3. Age: Adjust the slider to set the customer’s age between 18 and 92.
 
-2. Account Information:
-a. Account Balance: Enter the customer’s account balance.
-b. Credit Score: Use the slider to select the customer’s credit score (between 350 and 850).
+### Account Information:
+1. Account Balance: Enter the customer’s account balance.
+2. Credit Score: Use the slider to select the customer’s credit score (between 350 and 850).
 
-3. Customer Engagement:
-a. Monthly Salary: Adjust the slider to set the customer’s monthly salary (from 10 to 200,000).
-b. Credit Tenure (years): Use the slider to specify the number of years the customer has been using credit (from 0 to 10).
-c. Number of Products: Adjust the slider to set the number of products the customer is using (from 1 to 4).
-d. Has a Credit Card: Check this box if the customer has a credit card.
-e. Is an Active Member: Check this box if the customer is an active member.
+### Customer Engagement:
+1. Monthly Salary: Adjust the slider to set the customer’s monthly salary (from 10 to 200,000).
+2. Credit Tenure (years): Use the slider to specify the number of years the customer has been using credit (from 0 to 10).
+3. Number of Products: Adjust the slider to set the number of products the customer is using (from 1 to 4).
+4. Has a Credit Card: Check this box if the customer has a credit card.
+5. Is an Active Member: Check this box if the customer is an active member.
 
-4. Prediction:
+### Prediction:
 Once all fields are filled, click the "Predict Churn Probability" button to get the prediction and the app will output the probability that the customer will churn based on the inputs provided
 
-5. Prediction Explanation:
+### Prediction Explanation:
 There is a generic explanation on how the model works and how the prediction is made 
