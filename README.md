@@ -73,3 +73,6 @@ Once all fields are filled, click the "Predict Churn Probability" button to get 
 
 ### Prediction Explanation:
 There is a generic explanation on how the model works and how the prediction is made 
+
+## Compatibility Information 
+The tensorboard which is used in this project will not work on the [Streamlit Cloud](https://streamlit.io/cloud). Due to security reasons, Streamlit Cloud does not allow user's exposed ports ( as required by streamlit-tensorboard). This is the reason the tensorboard component is not added in the streamlit app 
