@@ -24,7 +24,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
 ```cmd
-git clone https://https://github.com/kiran-91/Customer-Churn-using-Neural-Nets.git
+git clone https://github.com/kiran-91/Customer-Churn-using-Neural-Nets.git
 cd Customer-Churn-using-Neural-Nets
 ```
 
